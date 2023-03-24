@@ -33,11 +33,14 @@ This project that was initiated by setting up a portfolio repo. And the objectiv
 
 **[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions.
 
-## 🛠 Built With <a name="built-with">HTML</a>
+## 🛠 Built With <a name="built-with"></a>
+
+
+### Tech Stack <a name="tech-stack">HTML</a>
 
 ### Tech Stack <a name="tech-stack">CSS</a>
 
-### Tech Stack <a name="tech-stack">LINTERS</a>
+### Tech Stack <a name="tech-stack">LINTERS TESTIS</a>
 
 
 

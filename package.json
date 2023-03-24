@@ -1,7 +1,17 @@
 {
   "name": "Mobile_View-Portforlio",
   "version": "1.0.0",
+  "description": "Microverse Mobile View Portfolio Project",
   "main": "index.js",
+  "dependencies": {
+    "hint": "^7.1.5"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,14 +25,5 @@
   "bugs": {
     "url": "https://github.com/efmomoh/Mobile_View-Portforlio/issues"
   },
-  "homepage": "https://github.com/efmomoh/Mobile_View-Portforlio#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "hint": "^7.1.5",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
-  "description": ""
+  "homepage": "https://github.com/efmomoh/Mobile_View-Portforlio#readme"
 }

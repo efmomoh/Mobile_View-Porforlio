@@ -1,0 +1,67 @@
+/* body styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background-image: url('./portfolio-icons/header-shapes\ mobile.png');
+  background-repeat: no-repeat;
+  height: 588px;
+}
+
+/* navigation bar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px;
+}
+
+.header a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container {
+  padding: 100px 24px 100px 24px;
+}
+
+.greetings {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #172b4d;
+  line-height: 52px;
+  align-items: center;
+}
+
+.intro {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container h2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.media-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: -100px;
+}
+
+.media-links a {
+  color: #505f79;
+  margin-inline: 10px;
+  font-size: 25px;
+}

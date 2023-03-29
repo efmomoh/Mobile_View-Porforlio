@@ -1,10 +1,18 @@
 /* body styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 4700px;
+  width: 375px;
+  border-radius: 0;
+  background: #fff;
+  position: absolute;
 }
 
 .background-image {
@@ -36,7 +44,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: #172b4d;
-  line-height: 52px;
+  line-height: 60px;
   align-items: center;
 }
 
@@ -64,4 +72,496 @@ body {
   color: #505f79;
   margin-inline: 10px;
   font-size: 25px;
+}
+
+/* STYLING SNAPSHOOT CONTAINER-SECTION & WORK-SECTION */
+.work-sections {
+  display: grid;
+}
+
+.snapshoot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid#DFE1E6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 114px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container > img {
+  width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section h1 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.lang > h1 {
+  margin-left: -40px;
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.framework-1 > h1 {
+  margin-left: -40px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.framework-2 > h1 {
+  margin-left: -40px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  margin-top: 20px;
+}
+
+.snapshoot-container > .flex h1 {
+  width: 295px;
+  height: 25px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+.canopy-section > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.canopy {
+  margin-left: -40px;
+  font-family: 'Poppins'Arial, Helvetica, sans-serif;
+  color: #344563;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.canopy-section > ul > li {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.canopy-section > ul > li > svg {
+  margin-inline: 12px;
+  margin-left: -10px;
+}
+
+/* paragraph stlyling */
+p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  width: 295px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 1px;
+}
+
+/* html-css-js stacks */
+.snapshoot-container > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+}
+
+.my-stacks > ul > li {
+  display: flex;
+  list-style-type: none;
+  height: 55px;
+  background: #f7f7f9;
+  margin-left: -35px;
+  width: 310px;
+  border-radius: 8px;
+}
+
+.snapshoot-container > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.about-myself a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #505f79;
+  margin-inline: 10px;
+  font-size: 25px;
+}
+
+.resume > a {
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.3%;
+  color: #396df2;
+  padding-left: 8px;
+  line-height: 45px;
+}
+
+.my-stacks > ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 18px 18px 18px 18px;
+  margin-inline: 16px;
+  color: #253858;
+}
+
+.snapshoot-container > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #396df2;
+}
+
+.snapshoot-container-2 > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #396df2;
+}
+
+.snapshoot-container-3 > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #396df2;
+}
+
+.snapshoot-container > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+}
+
+/* see project button  */
+.snapshoot-container > .flex > button {
+  display: flex;
+  line-height: 45px;
+  margin-left: 0;
+  border: 2px solid #396df2;
+  border-radius: 8px;
+  width: 57%;
+}
+
+/* WORKS-CARDS-SECTION-TWO on Card works-2 */
+.snapshoot-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 596px;
+  background: #fff;
+  border: 1px solid#DFE1E6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 100px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container-2 > img {
+  width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container-2 .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshoot-container-2 > .flex h1 {
+  width: 295px;
+  height: 25px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+/* html-css-js stacks */
+.snapshoot-container-2 > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+}
+
+.snapshoot-container-2 > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.snapshoot-container-2 > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+}
+
+/* see project button  */
+.snapshoot-container-2 > .flex > button {
+  display: flex;
+  line-height: 45px;
+  margin-left: 0;
+  border: 2px solid #396df2;
+  border-radius: 8px;
+  width: 57%;
+}
+
+/* TONIC SECTION-REPEAT  */
+.snapshoot-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid#DFE1E6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 100px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container-3 > img {
+  width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container-3 .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshoot-container-3 > .flex h1 {
+  width: 295px;
+  height: 25px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+/* html-css-js stacks */
+.snapshoot-container-3 > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+}
+
+.snapshoot-container-3 > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.snapshoot-container-3 > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+}
+
+/* see project button  */
+.snapshoot-container-3 > .flex > button {
+  display: flex;
+  line-height: 45px;
+  margin-left: 0;
+  border: 2px solid #396df2;
+  border-radius: 8px;
+  width: 57%;
+}
+
+/* About nyself page styles */
+.lang-stacks-section {
+  display: grid;
+}
+
+.about-section {
+  background: #fff;
+  padding: 16px 16px 16px 16px;
+  margin: 100px 10px 10px 10px;
+  border-right: 4px solid #dfe1e6;
+  border-top: 1px solid #dfe1e6;
+  border-top-right-radius: 80px;
+}
+
+.about-section > p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  margin-top: -15px;
+}
+
+.about-section h2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  width: 117px;
+  display: inline;
+}
+
+.about-section > .about-myself > ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: -45px;
+}
+
+.resume {
+  line-height: 30px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  width: 55%;
+}
+
+.lang {
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
+  height: 24px;
+  margin-top: 40px;
+}
+
+.lang > li > a > i {
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: -30px;
+  color: #000;
+}
+
+/* HTML-CSS-JS STYLES */
+.my-stacks {
+  display: flex;
+  flex-direction: column;
+  margin-left: -4px;
+}
+
+.my-stacks > ul > li > img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+/* frameworks styles */
+
+/* FRAMEWORK-1 */
+.framework-1 {
+  display: flex;
+  gap: 150px;
+  list-style-type: none;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.framework-1 > li > a > i {
+  text-decoration: none;
+  font-size: 35px;
+  margin-left: -30px;
+  color: #000;
+}
+
+/* FRAMEWORK-2 */
+.framework-2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 210px;
+  list-style-type: none;
+  margin-top: 45px;
+  border-top: 2px solid #dfe1e6;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.framework-2 > li > a > i {
+  text-decoration: none;
+  font-size: 40px;
+  color: #000;
+  margin-top: 20px;
 }

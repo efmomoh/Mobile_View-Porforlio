@@ -1,6 +1,6 @@
       Microverse Mobile View Portfolio Project
-
-This project that was initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile and desktop versions and screens.
+          HTML & CSS FINISH VERSION
+This project can be initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile versions and screens only.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -51,7 +51,7 @@ This project that was initiated by setting up a portfolio repo. And the objectiv
 
 - **[HTML]**
 - **[CSS]**
-- **[Linters]**
+- **[Linters Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -31,7 +31,7 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 # 📖 [Finish Mobie View Portfolio Project] <a name="about-project"></a>
 
 
-**[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions.
+**[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions. It has Figma template-1 mobile main view and it is resposive.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -182,6 +182,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 If you like this project feel free to contact me via mentioned Social Media links indicated here!
+You can also give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

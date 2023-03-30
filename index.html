@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Portfolio View</title>
+    <title>Mobile Version | Portfolio Projects</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -12,7 +12,7 @@
 <body>
   <!-- NAVIGATION-HEADER  -->
   <header class="header">
-    <a href="#">My Logo</a>
+    <a href="#">EFM</a>
     <nav class="navbar">
       <a href='#'><i class="fa fa-bars"></i></a>
     </nav>
@@ -40,12 +40,12 @@
   <li><a href="#"><i class="fa fa-angellist"></i></a></li>
 </ul>
 </div>
-<!-- work-container or snapshoot card -->
-<div class="work-sections">
+<!-- work-sections container or snapshoot card -->
+<section class="work-sections">
   <div class="snapshoot-container">
     <img src="./portfolio-icons/Snapshoot Portfolio (1).png" alt="Snapshoot Photo">
     <div class="flex">
-      <h1>Enssah</h1>
+      <h3>Enssah</h3>
       <div class="canopy-section">
         <ul>
           <li class="canopy">CANOPY</li>
@@ -61,15 +61,14 @@
         <li><a href="#">CSS</a></li>
         <li><a href="#">JavaScript</a></li>
       </ul>
-      <button><a href="#">See Project</a></button>
+      <button class="button" type="button">See Project</button>
     </div>
   </div>
   <!-- snapshoot-container-2 container  -->
   <div class="snapshoot-container-2">
     <img src="./portfolio-icons/Snapshoot Portfolio.jpg" alt="Snapshoot Photo">
     <div class="flex">
-      <h1>Multi-Post</h1>
-      <h1>Stories</h1>
+      <div class="bld">Multi-Post<br>Stories</div>
       <div class="canopy-section">
         <ul>
           <li class="canopy">CANOPY</li>
@@ -85,14 +84,14 @@
         <li><a href="#">CSS</a></li>
         <li><a href="#">JavaScript</a></li>
       </ul>
-      <button><a href="#">See Project</a></button>
+      <button class="button" type="button">See Project</button>
     </div>
   </div>
 <!-- snapshoot-container-3 -->
   <div class="snapshoot-container-3">
     <img src="./portfolio-icons/Snapshoot Portfolio-3.jpg" alt="Snapshoot Photo">
     <div class="flex">
-      <h1>Enssah</h1>
+      <strong>Momoh</strong>
       <div class="canopy-section">
         <ul>
           <li class="canopy">CANOPY</li>
@@ -108,15 +107,14 @@
         <li><a href="#">CSS</a></li>
         <li><a href="#">JavaScript</a></li>
       </ul>
-      <button><a href="#">See Project</a></button>
+      <button class="button" type="button">See Project</button>
     </div>
   </div>
-<!-- snapshoot-container-2 "REPEATED SECTION" -->
+<!-- snapshoot-container-2-->
   <div class="snapshoot-container-2">
     <img src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="Snapshoot Photo">
     <div class="flex">
-      <h1>Multi-Post</h1>
-      <h1>Stories</h1>
+      <div class="post-section">Multi-Post <br>Stories</div>
       <div class="canopy-section">
         <ul>
           <li class="canopy">CANOPY</li>
@@ -132,13 +130,13 @@
         <li><a href="#">CSS</a></li>
         <li><a href="#">JavaScript</a></li>
       </ul>
-      <button><a href="#">See Project</a></button>
+      <button class="button" type="button">See Project</button>
     </div>
   </div>
-</div>
-<!-- about-myself PAGE SECTION -->
-<div class="about-section">
-  <h1>About Myself</h1>
+</section> <!--END OF WORK SECTIONS-->
+<!-- START OF ABOUT MYSELF PAGE -->
+<section class="about-section">
+  <div class="myself">About Myself</div>
   <p>Hello I'm a software developer! I can help you build a product, 
     feature or website. Look through some of my work and experience! 
     If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
@@ -153,11 +151,11 @@
     </ul>
   </div>
   <div class="resume">
-    <a href="#">Get my resume</a>
+    <button class="button" type="button"><a href="#">Get my resume</a></button>
   </div>
   <div class="lang-stacks-section">
   <ul class="lang">
-    <h1>Languages</h1>
+    <div class="all-lang">Languages</div>
     <li><a href="#"><i class="fa fa-angle-down"></i></a></li>
   </ul>&nbsp;
   <div class="my-stacks">
@@ -175,13 +173,13 @@
   </div>
 </div>
   <ul class="framework-1">
-    <h1>Frameworks</h1>
+    <div class="frame-header-1">Frameworks</div>
     <li><a href="#"><i class="fa fa-angle-right"></i></a></li> 
   </ul>
   <ul class="framework-2">   
-    <h1>Skills</h1> 
+    <div class="frame-header-2">Skills</div > 
     <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
   </ul>
-  </div>
+</section> <!--END OF ABOUT PAGE-->
 </body>
 </html>

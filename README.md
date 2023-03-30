@@ -28,7 +28,7 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Set Up Mobie View Portfolio] <a name="about-project"></a>
+# 📖 [Finish Mobie View Portfolio Project] <a name="about-project"></a>
 
 
 **[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions.
@@ -202,3 +202,4 @@ I would like to thank the technical experts and Micronauts at Microverse for the
 This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 

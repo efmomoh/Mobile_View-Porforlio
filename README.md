@@ -1,6 +1,6 @@
       Microverse Mobile View Portfolio Project
-
-This project that was initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile and desktop versions and screens.
+          HTML & CSS FINISH VERSION
+This project can be initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile versions and screens only.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,10 +28,10 @@ This project that was initiated by setting up a portfolio repo. And the objectiv
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Set Up Mobie View Portfolio] <a name="about-project"></a>
+# 📖 [Finish Mobie View Portfolio Project] <a name="about-project"></a>
 
 
-**[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions.
+**[Mobie View Portfolio]** is a mini newbie project use to create a user interface(UI) for both mobile and desktop screens and versions. It has Figma template-1 mobile main view and it is resposive.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +51,7 @@ This project that was initiated by setting up a portfolio repo. And the objectiv
 
 - **[HTML]**
 - **[CSS]**
-- **[Linters]**
+- **[Linters Test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,6 +182,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 If you like this project feel free to contact me via mentioned Social Media links indicated here!
+You can also give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,3 +203,4 @@ I would like to thank the technical experts and Micronauts at Microverse for the
 This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 

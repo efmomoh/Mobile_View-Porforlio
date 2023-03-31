@@ -1,10 +1,18 @@
 /* body styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 4800px;
+  width: 375px;
+  border-radius: 0;
+  background: #f7f7f9;
+  position: absolute;
 }
 
 .background-image {
@@ -36,7 +44,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: #172b4d;
-  line-height: 52px;
+  line-height: 60px;
   align-items: center;
 }
 
@@ -64,4 +72,552 @@ body {
   color: #505f79;
   margin-inline: 10px;
   font-size: 25px;
+}
+
+/* STYLING SNAPSHOOT CONTAINER-SECTION & WORK-SECTION */
+.work-sections {
+  display: grid;
+}
+
+.snapshoot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 600px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 114px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container > img {
+  width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section > .myself {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  height: 2;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.lang > .all-lang {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin-left: -40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.framework-1 > .frame-header-1 {
+  margin-left: -40px;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.framework-2 > .frame-header-2 {
+  margin-left: -40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  margin-top: 20px;
+}
+
+.snapshoot-container > .flex h3 {
+  width: 295px;
+  height: 25px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+.canopy-section > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  color: #7a869a;
+}
+
+.canopy {
+  margin-left: -40px;
+  font-family: 'Poppins'Arial, Helvetica, sans-serif;
+  color: #344563;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+
+i:hover {
+  color: #6070ff;
+}
+
+li:hover {
+  color: #6070ff;
+}
+
+/* paragraph stlyling */
+p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  width: 295px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 1px;
+}
+
+p:hover {
+  color: #6070ff;
+}
+
+.canopy-section > ul > li {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.canopy-section-3 > ul > li {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.canopy-section > ul > li > svg {
+  margin-inline: 12px;
+  margin-left: -10px;
+}
+
+/* html-css-js stacks */
+.snapshoot-container > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+  color: #6070ff;
+}
+
+.my-stacks > ul > li {
+  display: flex;
+  list-style-type: none;
+  height: 55px;
+  background: #f7f7f9;
+  margin-left: -35px;
+  width: 310px;
+  border-radius: 8px;
+}
+
+.snapshoot-container > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  color: #6070ff;
+}
+
+.about-myself a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #505f79;
+  margin-inline: 10px;
+  font-size: 25px;
+}
+
+/* a:hover {
+  color: orangered;
+} */
+
+.my-stacks > ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 18px 18px 18px 18px;
+  margin-inline: 16px;
+  color: #253858;
+}
+
+.resume > .button > a {
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 17px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding-left: 8px;
+  line-height: 40px;
+}
+
+/* buttons styles  */
+button:hover,
+.button a:hover {
+  background-color: #6070ff;
+  color: #dfe1e6;
+}
+
+.snapshoot-container > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #6070ff;
+}
+
+.snapshoot-container-2 > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #396df2;
+}
+
+.snapshoot-container-3 > .flex > button > a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: #396df2;
+}
+
+/* color stacks */
+.snapshoot-container > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+  color: #6070ff;
+}
+
+/* see project button  */
+.button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  line-height: 40px;
+  margin-left: 10px;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  width: 40%;
+  background: #fff;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+}
+
+/* see project button  */
+.button:active {
+  background-color: #2230d2;
+}
+
+.button:disabled {
+  color: #5e6c84;
+}
+
+/* WORKS-CARDS-SECTION-TWO on Card works-2 */
+.snapshoot-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 625px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 100px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container-2 > img {
+  width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container-2 .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshoot-container-2 > .flex .bld {
+  width: 295px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+.snapshoot-container-2 > .flex .post-section {
+  width: 295px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+/* html-css-js stacks */
+.snapshoot-container-2 > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+}
+
+.snapshoot-container-2 > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.snapshoot-container-2 > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+}
+
+/* buttons  */
+.btn-lang ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.lang-btn {
+  padding: 12px 6px 12px 6px;
+  margin-inline: 5px;
+  color: #6070ff;
+  background-color: #ebebff;
+  font-size: 12px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+}
+
+/* TONIC SECTION-REPEAT  */
+.snapshoot-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 590px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 100px 10px 10px 10px;
+}
+
+/* Style img-photoshoot   */
+.snapshoot-container-3 > img {
+  width: 327px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.snapshoot-container-3 .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshoot-container-3 > .flex strong {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: -10px;
+  font-style: normal;
+}
+
+/* html-css-js stacks */
+.snapshoot-container-3 > .flex > .stacks {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  margin-left: -6px;
+  margin-top: 0;
+}
+
+.snapshoot-container-3 > .flex > .stacks li {
+  align-items: center;
+  width: 49px;
+  height: 22px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.snapshoot-container-3 > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+}
+
+/* About nyself page styles */
+.lang-stacks-section {
+  display: grid;
+}
+
+.about-section {
+  height: 1263px;
+  background: #fff;
+  padding: 16px 16px 16px 16px;
+  margin: 100px 10px 10px 10px;
+  border-top-right-radius: 80px;
+}
+
+.about-section > p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  margin-top: 15px;
+}
+
+.about-section h2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  width: 117px;
+  display: inline;
+}
+
+.about-section > .about-myself > ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: -45px;
+}
+
+.lang {
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
+  height: 24px;
+  margin-top: 40px;
+}
+
+.lang > li > a > i {
+  text-decoration: none;
+  width: 20px;
+  position: absolute;
+  right: 25%;
+  font-size: 25px;
+  color: #172b4d;
+}
+
+/* HTML-CSS-JS STYLES */
+.my-stacks {
+  display: flex;
+  flex-direction: column;
+  margin-left: -4px;
+}
+
+.my-stacks > ul > li > img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+/* FRAMEWORK-1 */
+.framework-1 {
+  display: flex;
+  gap: 150px;
+  list-style-type: none;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.framework-1 > li > a > i {
+  text-decoration: none;
+  font-size: 26px;
+  margin-left: -30px;
+  color: #000;
+}
+
+/* FRAMEWORK-2 */
+.framework-2 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 210px;
+  list-style-type: none;
+  margin-top: 45px;
+  border-top: 2px solid #dfe1e6;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.framework-2 > li > a > i {
+  text-decoration: none;
+  font-size: 26px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: -15px;
 }

@@ -436,6 +436,7 @@ button:hover,
 /* buttons  */
 .btn-lang ul {
   display: flex;
+  float: right;
   list-style-type: none;
   margin-left: -40px;
 }

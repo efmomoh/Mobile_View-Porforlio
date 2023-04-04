@@ -662,7 +662,7 @@ button:hover,
   flex-direction: column;
 }
 
-.input-name {
+.input-name, .input-email {
   border: 1px solid #cfd8dc;
   height: 48px;
   width: 327px;

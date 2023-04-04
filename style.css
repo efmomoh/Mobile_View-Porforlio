@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 4800px;
+  height: 5410px;
   width: 375px;
   border-radius: 0;
   background: #f7f7f9;
@@ -187,7 +187,7 @@ p {
   width: 295px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px ;
   line-height: 24px;
   color: #344563;
   margin-top: 1px;
@@ -620,4 +620,72 @@ button:hover,
   color: #000;
   margin-top: 20px;
   margin-left: -15px;
+}
+
+/* contact form  */
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./portfolio-icons/Contact\ me.jpg');
+  background-repeat: no-repeat;
+  height: 779px;
+  margin-top: 30px;
+}
+
+.form-header {
+  width: 810px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-form p {
+  width: 327px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 10px;
+  color: #ebebff;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  border: 1px solid #cfd8dc;
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.form-btn {
+  border: 1px solid #cfd8dc;
+  height: 44px;
+  width: 142px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }

@@ -1,5 +1,5 @@
       Microverse Mobile View Portfolio Project
-          HTML & CSS FINISH VERSION
+          HTML & CSS FINISH VERSION collabo repo.
 This project can be initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile versions and screens only.
 
 <!-- TABLE OF CONTENTS -->

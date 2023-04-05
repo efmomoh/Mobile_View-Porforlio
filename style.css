@@ -580,6 +580,17 @@ button:hover,
   margin-left: -4px;
 }
 
+.home-shape img {
+  align-items: center;
+  height: 5px;
+  width: 130px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-left: 120px;
+  background-color: #0d151e;
+  border-radius: 8px;
+}
+
 .my-stacks > ul > li > img {
   width: 50px;
   margin-left: 10px;
@@ -624,13 +635,13 @@ button:hover,
 
 /* contact form  */
 .form-container {
+  background-image: url('./portfolio-icons/Contact-me.jpg');
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("./portfolio-icons/Contact\ me.jpg");
-  background-repeat: no-repeat;
   height: 779px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .form-header {

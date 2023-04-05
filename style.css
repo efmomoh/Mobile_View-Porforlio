@@ -655,6 +655,8 @@ button:hover,
   line-height: 28px;
   margin-top: 10px;
   color: #ebebff;
+  margin-left: 16px;
+
 }
 
 .contact-me {
@@ -670,6 +672,7 @@ button:hover,
   border-radius: 8px;
   padding-left: 16px;
   margin-bottom: 16px;
+  margin-left: 16px;
   color: #172b4d;
   font-size: 17px;
   font-weight: 400;
@@ -689,6 +692,8 @@ button:hover,
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-left: 16px;
+
 }
 
 .text-area {
@@ -706,4 +711,6 @@ button:hover,
   padding-left: 16px;
   margin-bottom: 16px;
   margin-right: 15px;
+  margin-left: 16px;
+
 }

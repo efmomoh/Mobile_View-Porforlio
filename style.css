@@ -550,6 +550,7 @@ button:hover,
     margin: 0;
     box-sizing: border-box;
     width: 100%;
+    height: auto;
   }
 
   .header {
@@ -687,6 +688,7 @@ button:hover,
   #my-page {
     height: 600px;
     padding-left: 130px;
+    margin-top: -50px;
   }
 
   #snapshoot-4 {
@@ -705,13 +707,13 @@ button:hover,
     background: url('./portfolio-icons/contact-bg.png') #6070ff;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
+    height: auto;
     width: 100%;
     border-top-left-radius: 120px;
   }
 
   #form-header-1 {
-    margin-top: 100px;
+    margin-top: 142px;
     justify-content: center;
     width: 100%;
   }

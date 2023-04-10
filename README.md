@@ -1,5 +1,5 @@
-      Microverse Mobile View Portfolio Project
-          HTML & CSS FINISH VERSION collabo repo.
+                                        Portfolio Project
+                           Microverse Mobile and Desktop View Portfolio Project now available, check it out!
 This project can be initiated by setting up a portfolio repo. And the objective here is to set up a Mobile View Portfolio and customize it for both mobile versions and screens only. This project is also portable for desktop version.
 
 <!-- TABLE OF CONTENTS -->
@@ -43,7 +43,6 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 ### Tech Stack <a name="tech-stack">LINTERS TESTIS</a>
 
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -52,6 +51,11 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 - **[HTML]**
 - **[CSS]**
 - **[Linters Test]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://efmomoh.github.io/Mobile_View-Portforlio/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,14 +147,21 @@ Example:
 
 ## 👥 Authors <a name="efmomoh"></a>
 
-> Contributors
-
 👤 **ENSSAH FAYIA MOMOH**
-
 
 - GitHub: [@githubhandle](https://github.com/efmomoh)
 - Twitter: [@twitterhandle](https://twitter.com/@efmomoh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/efmomoh?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQI%2F5GWZxS063VqRg2rilyg%3D%3D)
+
+> Contributors
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/gergitokusse)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Brian3Kamau)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,7 +192,8 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project feel free to contact me via mentioned Social Media links indicated here!
+If you like this project feel free to contact me via mentioned Social Media links indicated here
+or better still you can send me a message via the portfolio website!
 You can also give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

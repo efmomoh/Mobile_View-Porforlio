@@ -734,8 +734,7 @@ button:hover,
 
   #screen-btn {
     margin-left: 170px;
-  transition-duration: 2s;
-
+    transition-duration: 2s;
   }
 
   #desktop-btn {
@@ -756,7 +755,7 @@ button:hover,
     font-weight: 500px;
     height: 50px;
   }
- 
+
   #efm-2 {
     cursor: pointer;
     width: 5%;

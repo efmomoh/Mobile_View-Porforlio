@@ -514,6 +514,7 @@ button:hover,
   text-align: center;
   letter-spacing: 0.03em;
   margin-left: 16px;
+
 }
 
 .text-area {
@@ -734,6 +735,8 @@ button:hover,
 
   #screen-btn {
     margin-left: 170px;
+  transition-duration: 2s;
+
   }
 
   #desktop-btn {
@@ -743,25 +746,29 @@ button:hover,
     font-size: 17px;
     font-weight: 500px;
     height: 50px;
+    transition-duration: 2s;
+
   }
 
   #about-desktop-btn {
     border-radius: 8px;
-    width: 150px;
+    width: 30%;
     line-height: 24px;
     font-size: 17px;
     font-weight: 500px;
     height: 50px;
   }
-  #efm {
+ 
+  #efm-2 {
     cursor: pointer;
     width: 5%;
     transition-duration: 2s;
-
   }
-  #efm:hover {
+
+  #efm-2:hover {
     font-size: 30px;
     color: gold;
     transform: rotate(360deg);
   }
+  
 }

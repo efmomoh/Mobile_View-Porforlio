@@ -596,6 +596,10 @@ label {
     margin-left: -2px;
   }
 
+  .intro:hover{
+    color: #6070ff;
+  }
+
   .container h2 {
     font: 16px;
     line-height: 24px;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile Version | Portfolio Projects</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -109,7 +109,7 @@
     <div class="snapshoot-container-2" id="background-2">
       <div class="flex" id="flex-2">
           <div class="page-2-image">
-            <img class="snapshoot" id="snapshoot-2" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="">
+            <img class="snapshoot" id="snapshoot-2" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="portfolio-art-printing-image">
           </div>
 
         <div class="enssah-2">
@@ -223,7 +223,7 @@
       <div class="snapshoot-container-2" id="background-4">
         <div class="flex" id="flex-3">
           <div class="page-2-image">
-            <img class="snapshoot" id="snapshoot-4" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="">
+            <img class="snapshoot" id="snapshoot-4" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="snapshoot-portfolio-art-image">
           </div>
         <div class="enssah-2">
           <div class="bld">Multi-Post <br />Stories</div>
@@ -277,14 +277,14 @@
     <section class="about-section" id="my-page">
         <div class="me">
         <div class="about">
-          <h1 class="myself">About Myself</h1>
+          <h4 class="myself">About Myself</h4>
           <p class="my-p">
             Hello I'm a software developer! I can help you build a product, feature
             or website. Look through some of my work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
-          <h2>LET'S CONNECT!</h2>
+          <h3>LET'S CONNECT!</h3>
           <div class="about-myself">
             <ul>
               <li>
@@ -320,17 +320,17 @@
           <div class="my-stacks">
             <ul>
               <li>
-                <img src="./portfolio-icons/Ellipse 1-JS.png" alt="" />
+                <img src="./portfolio-icons/Ellipse 1-JS.png" alt="Javascript-icon" />
                 <a href="#">JavaScript</a>
               </li>
               &nbsp;
               <li>
-                <img src="./portfolio-icons/Ellipse 1-html.png" alt="" />
+                <img src="./portfolio-icons/Ellipse 1-html.png" alt="HTML-icon" />
                 <a href="#">HTML</a>
               </li>
               &nbsp;
               <li>
-                <img src="./portfolio-icons/Ellipse 1-CSS.png" alt="" />
+                <img src="./portfolio-icons/Ellipse 1-CSS.png" alt="CSS-icon" />
                 <a href="#">CSS</a>
               </li>
             </ul>
@@ -353,7 +353,7 @@
     </section>
     <section class="form-container" id="form-bg">
       <div class="form-box">
-      <h1 class="form-header" id="form-header-1">Contact me</h1>
+      <h5 class="form-header" id="form-header-1">Contact me</h5>
       <p class="form-p">
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
@@ -362,23 +362,31 @@
       <div class="contact-form">
        
         <form class="contact-me" action="https://formspree.io/f/xjvdador" method="post">
+          <div>
+            <label class="inactive" for="userName">userName</label>
           <input
             class="input-name"
             type="text"
-            maxlength="30"
+            maxlength="30" id="userName"
             placeholder="Write your name"
             required
           />
+        </div>
+        <div>
+          <label for="email">Email</label>
           <input
             class="input-email"
-            type="email"
+            type="email" id="email"
             placeholder="Write your email"
             required
           />
+        </div>
+        <div>
+          <label for="message"></label>
           <textarea
             name="textarea"
             class="text-area"
-            id="text"
+            id="message"
             placeholder="Write your message here..."
             cols="30"
 
@@ -387,6 +395,7 @@
             rows="10" maxlength="500" required
 
           ></textarea>
+        </div>
           <button class="form-btn" id="screen-btn" type="submit">Get in touch</button>
           <div class="home-shape"><img src="./portfolio-icons/home-indicator.jpg" alt="home-indicator-shape"></div>
         </form>

@@ -53,6 +53,11 @@ body {
 }
 
 h2 {
+.intro:hover{
+  color: #6070ff;
+}
+
+.container h2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -733,7 +738,7 @@ label {
     padding: 320px;
     margin-top: -350px;
   }
-
+  
   .contact-me {
     width: 70%;
     margin-left: 130px;

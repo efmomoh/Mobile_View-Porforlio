@@ -50,10 +50,18 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-left: -1px;
+  color: #344563;
 }
 
-.intro:hover{
+.intro:hover {
   color: #6070ff;
+}
+
+h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
 }
 
 .container h2 {
@@ -92,7 +100,6 @@ body {
 
 .myself {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  height: 2;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -130,7 +137,7 @@ body {
   margin-top: 20px;
 }
 
-.flex h3 {
+h3 {
   width: 295px;
   height: 25px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -361,7 +368,7 @@ button:hover,
   border-top-right-radius: 80px;
 }
 
-.about-section h2 {
+.about-section h3 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   line-height: 24px;
@@ -536,6 +543,10 @@ button:hover,
   padding: 15px 16px;
 }
 
+label {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .menu-list {
     display: none;
@@ -595,6 +606,10 @@ button:hover,
     font-size: 20px;
     line-height: 28px;
     margin-left: -2px;
+  }
+
+  .intro:hover {
+    color: #6070ff;
   }
 
   .container h2 {
@@ -730,7 +745,7 @@ button:hover,
     padding: 320px;
     margin-top: -350px;
   }
-  
+
   .contact-me {
     width: 70%;
     margin-left: 130px;

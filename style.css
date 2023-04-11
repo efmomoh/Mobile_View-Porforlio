@@ -64,6 +64,13 @@ h2 {
   color: #7f8cff;
 }
 
+.container h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
 .media-links {
   display: flex;
   list-style-type: none;
@@ -599,6 +606,10 @@ label {
     font-size: 20px;
     line-height: 28px;
     margin-left: -2px;
+  }
+
+  .intro:hover {
+    color: #6070ff;
   }
 
   .container h2 {

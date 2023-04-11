@@ -52,7 +52,7 @@ body {
   margin-left: -1px;
 }
 
-.container h2 {
+h2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -88,7 +88,6 @@ body {
 
 .myself {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  height: 2;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -126,7 +125,7 @@ body {
   margin-top: 20px;
 }
 
-.flex h3 {
+h3 {
   width: 295px;
   height: 25px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -357,7 +356,7 @@ button:hover,
   border-top-right-radius: 80px;
 }
 
-.about-section h2 {
+.about-section h3 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   line-height: 24px;
@@ -530,6 +529,10 @@ button:hover,
   width: 82%;
   margin-left: 16px;
   padding: 15px 16px;
+}
+
+label {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {

@@ -6,8 +6,8 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 5410px;
-  width: 375px;
+  height: auto;
+  width: 100%;
   border-radius: 0;
   background: #f7f7f9;
   position: absolute;
@@ -16,22 +16,25 @@ body {
 .background-image {
   background-image: url("./portfolio-icons/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  height: 588px;
+  height: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 36px;
-  box-sizing: border-box;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
 }
 
-.header a {
+a {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
   color: #6070ff;
+  margin-left: 30px;
 }
 
 .container {
@@ -86,7 +89,7 @@ h2 {
 }
 
 .snapshoot-container {
-  height: 590px;
+  height: auto;
   background: #fff;
   border-radius: 16px;
   padding: 16px;
@@ -367,7 +370,7 @@ button:hover,
 }
 
 .about-section {
-  height: 1263px;
+  height: auto;
   background: #fff;
   padding: 16px 16px 16px 16px;
   margin: 100px 10px 10px 10px;
@@ -472,7 +475,7 @@ button:hover,
 .form-container {
   background-image: url('./portfolio-icons/Contact-me.jpg');
   background-repeat: no-repeat;
-  height: 779px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -498,11 +501,12 @@ button:hover,
   color: #ebfff6;
   text-align: center;
   padding: 24px;
+  width: 78%;
 }
 
 .input-name,
 .input-email {
-  width: 83%;
+  width: 78%;
   margin-left: 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -541,7 +545,7 @@ button:hover,
   border: 1px solid #cfd8dc;
   line-height: 24px;
   margin-bottom: 16px;
-  width: 82%;
+  width: 78%;
   margin-left: 16px;
   padding: 15px 16px;
 }
@@ -552,15 +556,16 @@ label {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .menu-list {
   list-style-type: none;
 }
 
-.menu:hover {
+.menu {
   color: #fff;
-  background-color: #6070ff;
 }
 
 .bar {
@@ -576,6 +581,7 @@ label {
   .hamburger {
     display: block;
     cursor: pointer;
+    padding-right: 30px;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -584,21 +590,25 @@ label {
 
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
   }
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
   }
 
   .menu-list {
     position: fixed;
     left: -100%;
-    top: 60px;
+    top: -16px;
     gap: 0;
     flex-direction: column;
     width: 100%;
-    text-align: center;
+    align-items: center;
     transition: 0.3s;
+    padding-top: 40px;
+    padding-left: 20px;
   }
 
   .menu-list li {
@@ -607,6 +617,8 @@ label {
 
   .menu-list.active {
     left: 0;
+    background-color: #6070fff1;
+    height: 100vh;
   }
 }
 
@@ -627,10 +639,6 @@ label {
     height: auto;
   }
 
-  .header {
-    padding: 0 155px 0 155px;
-  }
-
   .menu-list {
     display: flex;
     justify-content: space-between;
@@ -640,8 +648,14 @@ label {
   }
 
   .menu {
-    margin: 20px;
-    font-size: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #6070ff;
+  }
+
+  .menu:hover {
+    color: #fff;
+    background-color: #6070ff;
   }
 
   #background-image-2 {
@@ -837,6 +851,7 @@ label {
     cursor: pointer;
     width: 5%;
     transition-duration: 2s;
+    margin-left: 100px;
   }
 
   #efm-2:hover {

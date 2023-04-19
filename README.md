@@ -6,25 +6,29 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Finish Mobie View Portfolio Project\] ](#-finish-mobie-view-portfolio-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack HTML](#tech-stack-html)
+    - [Tech Stack CSS](#tech-stack-css)
+    - [Tech Stack JavaScript](#tech-stack-javascript)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [:hammer: Built With](#hammer-built-with)
+  - [:blue\_book: Learning Objectives](#blue_book-learning-objectives)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -40,7 +44,7 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 
 ### Tech Stack <a name="tech-stack">CSS</a>
 
-### Tech Stack <a name="tech-stack">LINTERS TESTIS</a>
+### Tech Stack <a name="tech-stack">JavaScript</a>
 
 
 <!-- Features -->
@@ -50,7 +54,7 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 
 - **[HTML]**
 - **[CSS]**
-- **[Linters Test]**
+- **[JavaScript]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -63,7 +67,7 @@ This project can be initiated by setting up a portfolio repo. And the objective 
 
 ## :hammer: Built With
 
-- HTML and CSS followed by LINTERS test
+- HTML, CSS and JavaScript followed by LINTERS test
 
 ## :blue_book: Learning Objectives
 
@@ -164,6 +168,8 @@ Example:
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/Brian3Kamau)
+- GitHub: [@githubhandle](https://github.com/ghermaico135)
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,6 +182,7 @@ Example:
 - [ ] **[UI-User Interface]**
 - [ ] **[Modern & Impresive Design For Mobile and Desktop Versions]**
 - [ ] **[Newbies Web Content]**
+- [ ] **[Toogling Effect in Mobile Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

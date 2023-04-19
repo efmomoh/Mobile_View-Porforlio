@@ -6,8 +6,8 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 5410px;
-  width: 375px;
+  height: auto;
+  width: 100%;
   border-radius: 0;
   background: #f7f7f9;
   position: absolute;
@@ -16,20 +16,25 @@ body {
 .background-image {
   background-image: url("./portfolio-icons/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  height: 588px;
+  height: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 36px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
 }
 
-.header a {
+a {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
+  color: #6070ff;
+  margin-left: 30px;
 }
 
 .container {
@@ -84,7 +89,7 @@ h2 {
 }
 
 .snapshoot-container {
-  height: 590px;
+  height: auto;
   background: #fff;
   border-radius: 16px;
   padding: 16px;
@@ -160,7 +165,7 @@ h3 {
 
 .canopy {
   margin-left: -20px;
-  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #344563;
   font-weight: 600;
   font-style: normal;
@@ -196,6 +201,10 @@ li:hover {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   list-style-type: none;
   color: #6070ff;
+}
+
+.menu-list li {
+  transition: 0.7s ease;
 }
 
 .canopy-section > ul > li {
@@ -270,7 +279,7 @@ li:hover {
   text-decoration: none;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 17px;
   display: flex;
   text-align: center;
@@ -278,18 +287,6 @@ li:hover {
   color: #396df2;
   padding-left: 8px;
   line-height: 40px;
-}
-
-button:hover,
-.button a:hover {
-  background-color: #6070ff;
-  color: #dfe1e6;
-}
-
-.snapshoot-container > .flex > .stacks > li a {
-  background-color: #ebebff;
-  text-decoration: none;
-  color: #6070ff;
 }
 
 .button {
@@ -303,6 +300,18 @@ button:hover,
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #6070ff;
   margin-top: 20px;
+}
+
+button:hover,
+.button:hover {
+  background-color: #6070ff;
+  color: #dfe1e6;
+}
+
+.snapshoot-container > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+  color: #6070ff;
 }
 
 .button:active {
@@ -361,7 +370,7 @@ button:hover,
 }
 
 .about-section {
-  height: 1263px;
+  height: auto;
   background: #fff;
   padding: 16px 16px 16px 16px;
   margin: 100px 10px 10px 10px;
@@ -426,7 +435,6 @@ button:hover,
   margin-left: 10px;
 }
 
-/* FRAMEWORK-1 */
 .framework-1 {
   display: flex;
   gap: 150px;
@@ -445,7 +453,6 @@ button:hover,
   color: #000;
 }
 
-/* FRAMEWORK-2 */
 .framework-2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   display: flex;
@@ -465,11 +472,10 @@ button:hover,
   margin-left: -15px;
 }
 
-/* contact form  */
 .form-container {
   background-image: url('./portfolio-icons/Contact-me.jpg');
   background-repeat: no-repeat;
-  height: 779px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -495,11 +501,12 @@ button:hover,
   color: #ebfff6;
   text-align: center;
   padding: 24px;
+  width: 78%;
 }
 
 .input-name,
 .input-email {
-  width: 83%;
+  width: 78%;
   margin-left: 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -538,7 +545,7 @@ button:hover,
   border: 1px solid #cfd8dc;
   line-height: 24px;
   margin-bottom: 16px;
-  width: 82%;
+  width: 78%;
   margin-left: 16px;
   padding: 15px 16px;
 }
@@ -547,16 +554,80 @@ label {
   display: none;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu {
+  color: #fff;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
 @media only screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-right: 30px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+  }
+
   .menu-list {
-    display: none;
+    position: fixed;
+    left: -100%;
+    top: -16px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transition: 0.3s;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+
+  .menu-list li {
+    margin: 16px 0;
+  }
+
+  .menu-list.active {
+    left: 0;
+    background-color: #6070fff1;
+    height: 100vh;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .hamburger,
   .navbar i,
   .btn-lang,
-  .home-shape {
+  .home-shape,
+  .toogle-bar {
     display: none;
   }
 
@@ -568,10 +639,6 @@ label {
     height: auto;
   }
 
-  .header {
-    padding: 0 155px 0 155px;
-  }
-
   .menu-list {
     display: flex;
     justify-content: space-between;
@@ -581,8 +648,14 @@ label {
   }
 
   .menu {
-    margin: 20px;
-    font-size: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #6070ff;
+  }
+
+  .menu:hover {
+    color: #fff;
+    background-color: #6070ff;
   }
 
   #background-image-2 {
@@ -593,7 +666,7 @@ label {
   }
 
   .container {
-    padding: 180px 260px 0 260px;
+    padding: 180px 260px 0 160px;
   }
 
   .greetings {
@@ -613,7 +686,7 @@ label {
   }
 
   .container h2 {
-    font: 16px;
+    font-size: 16px;
     line-height: 24px;
   }
 
@@ -677,7 +750,6 @@ label {
   #bld-2 {
     width: 496px;
     font-size: 50px;
-    list-style: 40px;
     height: 46px;
   }
 
@@ -761,7 +833,7 @@ label {
     width: 140px;
     line-height: 24px;
     font-size: 17px;
-    font-weight: 500px;
+    font-weight: 500;
     height: 50px;
     transition-duration: 2s;
   }
@@ -771,7 +843,7 @@ label {
     width: 30%;
     line-height: 24px;
     font-size: 17px;
-    font-weight: 500px;
+    font-weight: 500;
     height: 50px;
   }
 
@@ -779,6 +851,7 @@ label {
     cursor: pointer;
     width: 5%;
     transition-duration: 2s;
+    margin-left: 100px;
   }
 
   #efm-2:hover {

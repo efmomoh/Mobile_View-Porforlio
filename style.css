@@ -85,7 +85,6 @@ h2 {
   font-size: 25px;
 }
 
-
 .snapshoot-container {
   height: 590px;
   background: #fff;
@@ -163,7 +162,7 @@ h3 {
 
 .canopy {
   margin-left: -20px;
-  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #344563;
   font-weight: 600;
   font-style: normal;
@@ -199,6 +198,10 @@ li:hover {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   list-style-type: none;
   color: #6070ff;
+}
+
+.menu-list li {
+  transition: 0.7s ease;
 }
 
 .canopy-section > ul > li {
@@ -273,7 +276,7 @@ li:hover {
   text-decoration: none;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 17px;
   display: flex;
   text-align: center;
@@ -281,18 +284,6 @@ li:hover {
   color: #396df2;
   padding-left: 8px;
   line-height: 40px;
-}
-
-button:hover,
-.button:hover {
-  background-color: #6070ff;
-  color: #dfe1e6;
-}
-
-.snapshoot-container > .flex > .stacks > li a {
-  background-color: #ebebff;
-  text-decoration: none;
-  color: #6070ff;
 }
 
 .button {
@@ -306,6 +297,18 @@ button:hover,
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #6070ff;
   margin-top: 20px;
+}
+
+button:hover,
+.button:hover {
+  background-color: #6070ff;
+  color: #dfe1e6;
+}
+
+.snapshoot-container > .flex > .stacks > li a {
+  background-color: #ebebff;
+  text-decoration: none;
+  color: #6070ff;
 }
 
 .button:active {
@@ -555,10 +558,6 @@ label {
   list-style-type: none;
 }
 
-.menu-list li {
-  transition: 0.7s ease;
-}
-
 .menu:hover {
   color: #fff;
   background-color: #6070ff;
@@ -569,7 +568,6 @@ label {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -web-kit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #6070ff;
 }
@@ -578,19 +576,19 @@ label {
   .hamburger {
     display: block;
   }
-  .hamburger.active .bar:nth-child(2){
+
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-    
-
   }
-  .hamburger.active .bar:nth-child(1){
+
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-
   }
-  .hamburger.active .bar:nth-child(3){
+
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-
   }
+
   .menu-list {
     position: fixed;
     left: -100%;
@@ -600,15 +598,15 @@ label {
     width: 100%;
     text-align: center;
     transition: 0.3s;
-
   }
+
   .menu-list li {
     margin: 16px 0;
   }
+
   .menu-list.active {
     left: 0;
   }
- 
 }
 
 @media only screen and (min-width: 768px) {
@@ -673,7 +671,7 @@ label {
   }
 
   .container h2 {
-    font: 16px;
+    font-size: 16px;
     line-height: 24px;
   }
 
@@ -737,7 +735,6 @@ label {
   #bld-2 {
     width: 496px;
     font-size: 50px;
-    list-style: 40px;
     height: 46px;
   }
 
@@ -821,7 +818,7 @@ label {
     width: 140px;
     line-height: 24px;
     font-size: 17px;
-    font-weight: 500px;
+    font-weight: 500;
     height: 50px;
     transition-duration: 2s;
   }
@@ -831,7 +828,7 @@ label {
     width: 30%;
     line-height: 24px;
     font-size: 17px;
-    font-weight: 500px;
+    font-weight: 500;
     height: 50px;
   }
 
@@ -846,5 +843,4 @@ label {
     color: gold;
     transform: rotate(360deg);
   }
-  
 }

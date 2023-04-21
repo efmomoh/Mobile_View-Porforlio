@@ -519,12 +519,12 @@ button:hover,
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   color: #ebfff6;
   text-align: center;
-  padding: 24px;
-  width: 78%;
+  padding: 20px;
+  width: 100%;
 }
 
 .input-name,
@@ -761,7 +761,7 @@ label {
     background-image: url('./portfolio-icons/desk2.png');
     background-repeat: no-repeat;
     height: 448px;
-    width: 500px;
+    width: 100%;
   }
 
   .enssah-2 {

@@ -95,8 +95,31 @@ h2 {
   padding: 16px;
 }
 
-.snapshoot {
-  background-image: url('./portfolio-icons/Snapshoot-Portfolio-1.png');
+.snapshoot-1 {
+  background-image: url('./portfolio-icons/mobile1.png');
+  background-repeat: no-repeat;
+  height: 220px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.snapshoot-2 {
+  background-image: url('./portfolio-icons/mobile2.png');
+  background-repeat: no-repeat;
+  height: 220px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.snapshoot-3 {
+  background-image: url('./portfolio-icons/mobile3.png');
+  background-repeat: no-repeat;
+  height: 220px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.snapshoot-4 {
+  background-image: url('./portfolio-icons/mobile4.jpg');
   background-repeat: no-repeat;
   height: 220px;
   margin-bottom: 15px;
@@ -700,7 +723,7 @@ label {
   }
 
   #snapshoot-1 {
-    background-image: url('./portfolio-icons/card-1.jpg');
+    background-image: url('./portfolio-icons/desk1.jpg');
     background-repeat: no-repeat;
     height: 448px;
     margin-left: 10px;
@@ -734,9 +757,8 @@ label {
     padding-bottom: -70px;
   }
 
-  /* me  */
   #snapshoot-2 {
-    background-image: url('./portfolio-icons/card-2.png');
+    background-image: url('./portfolio-icons/desk2.png');
     background-repeat: no-repeat;
     height: 448px;
     width: 500px;
@@ -764,7 +786,7 @@ label {
   }
 
   #snapshoot-3 {
-    background-image: url('./portfolio-icons/card-3.png');
+    background-image: url('./portfolio-icons/desk3.png');
     background-repeat: no-repeat;
     height: 448px;
     margin-left: 10px;
@@ -783,10 +805,10 @@ label {
   }
 
   #snapshoot-4 {
-    background-image: url('./portfolio-icons/card-4.png');
+    background-image: url('./portfolio-icons/desk4.png');
     background-repeat: no-repeat;
     height: 448px;
-    width: 450px;
+    width: 100%;
   }
 
   .me {

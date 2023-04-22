@@ -154,8 +154,26 @@ body {
   flex-wrap: wrap;
 }
 
-.buttons img {
-  width: 90%;
+.livebutton {
+  padding: 5px;
+  width: 100px;
+}
+
+.modal__btn {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__btn li a {
+  border: 1px solid #6070ff;
+  padding: 0.6rem 1.5vw;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -173,6 +191,7 @@ body {
 @media screen and (min-width: 768px) {
   #window .popup {
     margin: 2rem auto;
+    width: 75%;
   }
 
   .switch {

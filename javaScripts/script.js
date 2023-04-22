@@ -1,91 +1,91 @@
 // hamburger menu and menu
 
-const openBtn = document.querySelector("#open-menu");
-const closeBtn = document.querySelector("#close-menu");
-const menu = document.querySelector(".nav-item-links");
-const overlay = document.querySelector(".overlay");
+const openBtn = document.querySelector('#open-menu');
+const closeBtn = document.querySelector('#close-menu');
+const menu = document.querySelector('.nav-item-links');
+const overlay = document.querySelector('.overlay');
 
-openBtn.addEventListener("click", () => {
-  menu.style.display = "block";
-  openBtn.style.display = "none";
-  closeBtn.style.display = "inline-block";
+openBtn.addEventListener('click', () => {
+  menu.style.display = 'block';
+  openBtn.style.display = 'none';
+  closeBtn.style.display = 'inline-block';
 
-  overlay.classList.remove("hidden");
-  document.body.style.overflow = "hidden";
+  overlay.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
 });
 
 // close & open the menu bar
 
 const closeNavbar = () => {
-  menu.style.display = "none";
-  openBtn.style.display = "inline-block";
-  closeBtn.style.display = "none";
-  overlay.classList.add("hidden");
-  document.body.style.overflow = "scroll";
+  menu.style.display = 'none';
+  openBtn.style.display = 'inline-block';
+  closeBtn.style.display = 'none';
+  overlay.classList.add('hidden');
+  document.body.style.overflow = 'scroll';
 };
-closeBtn.addEventListener("click", () => {
+closeBtn.addEventListener('click', () => {
   closeNavbar();
 });
 // ham end
 // begin card section
 
-const projectsCards = document.querySelector(".cards");
-const modalPopUp = document.querySelector("#window");
+const projectsCards = document.querySelector('.cards');
+const modalPopUp = document.querySelector('#window');
 
 // arr of objects
 
 const cards = [
   {
     id: 1,
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads no accounts or sign-ups required",
-    img1: "./portfolio-icons/mobile1.png",
-    technology: ["HTML", "CSS", "Ruby on Rails", "JavaScript"],
-    platform: "CANOPY",
-    stack: "Back End Dev",
+      'A daily selection of privately personalized reads no accounts or sign-ups required',
+    img1: './portfolio-icons/mobile1.png',
+    technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
+    platform: 'CANOPY',
+    stack: 'Back End Dev',
     year: 2023,
-    livelink: "https://efmomoh.github.io/Mobile_View-Portforlio/",
-    linkSource: "https://github.com/efmomoh/Mobile_View-Portforlio",
+    livelink: 'https://efmomoh.github.io/Mobile_View-Portforlio/',
+    linkSource: 'https://github.com/efmomoh/Mobile_View-Portforlio',
   },
   {
     id: 2,
-    title: "Multi-Post Stories",
+    title: 'Multi-Post Stories',
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    img1: "./portfolio-icons/mobile2.jpg",
-    technology: ["HTML", "CSS", "Ruby on Rails", "JavaScript"],
-    platform: "FACEBOOK",
-    stack: "Full Stack Dev",
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    img1: './portfolio-icons/mobile2.jpg',
+    technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
+    platform: 'FACEBOOK',
+    stack: 'Full Stack Dev',
     year: 2023,
-    livelink: "https://efmomoh.github.io/Mobile_View-Portforlio/",
-    linkSource: "https://github.com/efmomoh/Mobile_View-Portforlio",
+    livelink: 'https://efmomoh.github.io/Mobile_View-Portforlio/',
+    linkSource: 'https://github.com/efmomoh/Mobile_View-Portforlio',
   },
   {
     id: 3,
-    title: "Facebook 360",
+    title: 'Facebook 360',
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    img1: "./portfolio-icons/mobile3.jpg",
-    technology: ["HTML", "CSS", "Ruby on Rails", "JavaScript"],
-    platform: "FACEBOOK",
-    stack: "Full Stack Dev",
+    img1: './portfolio-icons/mobile3.jpg',
+    technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
+    platform: 'FACEBOOK',
+    stack: 'Full Stack Dev',
     year: 2023,
-    livelink: "https://efmomoh.github.io/Mobile_View-Portforlio/",
-    linkSource: "https://github.com/efmomoh/Mobile_View-Portforlio",
+    livelink: 'https://efmomoh.github.io/Mobile_View-Portforlio/',
+    linkSource: 'https://github.com/efmomoh/Mobile_View-Portforlio',
   },
   {
     id: 4,
-    title: "Uber Navigation",
+    title: 'Uber Navigation',
     description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    img1: "./portfolio-icons/mobile4.jpg",
-    technology: ["HTML", "CSS", "Ruby on Rails", "JavaScript"],
-    platform: "Uber",
-    stack: "Lead Developer",
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    img1: './portfolio-icons/mobile4.jpg',
+    technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
+    platform: 'Uber',
+    stack: 'Lead Developer',
     year: 2023,
-    livelink: "https://efmomoh.github.io/Mobile_View-Portforlio/",
-    linkSource: "https://github.com/efmomoh/Mobile_View-Portforlio",
+    livelink: 'https://efmomoh.github.io/Mobile_View-Portforlio/',
+    linkSource: 'https://github.com/efmomoh/Mobile_View-Portforlio',
   },
 ];
 
@@ -109,18 +109,18 @@ function generateContent() {
 
           <p class="description">${content.description}</p>
           <ul class="stack">
-          ${content.technology.map((x) => `<li>${x}</li>`).join("")}
+          ${content.technology.map((x) => `<li>${x}</li>`).join('')}
           </ul>
           <a class="detail-btn btn" id=${content.id}href="#">See Projects</a>
         </div>
-      </div> `
+      </div> `,
     )
-    .join("");
+    .join('');
 }
 
-projectsCards.addEventListener("click", (e) => {
-  if (e.target.classList.contains("detail-btn")) {
-    modalPopUp.style.display = "block";
+projectsCards.addEventListener('click', (e) => {
+  if (e.target.classList.contains('detail-btn')) {
+    modalPopUp.style.display = 'block';
     const id = parseFloat(e.target.id);
     const search = cards.find((x) => x.id === id);
     if (search !== undefined) {
@@ -150,7 +150,7 @@ projectsCards.addEventListener("click", (e) => {
             </div>
             <div class="stack-and-buttons">
               <ul class="stack">
-                  ${search.technology.map((x) => `<li>${x}</li>`).join("")}
+                  ${search.technology.map((x) => `<li>${x}</li>`).join('')}
               </ul>
               <div class="buttons">
                 <a href=${search.livelink} class="see-live"
@@ -169,9 +169,9 @@ projectsCards.addEventListener("click", (e) => {
   }
   generateContent();
 });
-modalPopUp.addEventListener("click", (e) => {
-  if (e.target.id === "close-btn") {
-    modalPopUp.style.display = "none";
+modalPopUp.addEventListener('click', (e) => {
+  if (e.target.id === 'close-btn') {
+    modalPopUp.style.display = 'none';
   }
   generateContent();
 });
@@ -182,21 +182,21 @@ generateContent();
 // form validation goes here
 
 function showMessage(input, message, type) {
-  const msg = input.parentNode.querySelector("small");
+  const msg = input.parentNode.querySelector('small');
   msg.innerHTML = message;
 
   // updating the input clases
-  input.className = type ? "success" : "error";
+  input.className = type ? 'success' : 'error';
   return type;
 }
 function showError(input, message) {
   return showMessage(input, message, false);
 }
 function showSuccess(input) {
-  return showMessage(input, "", true);
+  return showMessage(input, '', true);
 }
 function hasValue(input, message) {
-  if (input.value.trim() === "") {
+  if (input.value.trim() === '') {
     return showError(input, message);
   }
   return showSuccess(input);
@@ -220,15 +220,15 @@ function validateEmail(input, requiredMsg, invalidMsg) {
   return true;
 }
 
-const form = document.getElementById("register");
-const NAME_REQ = "Please Enter your name";
-const MSG_REQ = "Field Cannot be empty";
-const EMAIL_REQ = "Please Enter Your email";
-const EMAIL_INVALID = "Please Enter a correct email address in Lowercase";
-const btn = document.getElementById("submit-btn");
+const form = document.getElementById('register');
+const NAME_REQ = 'Please Enter your name';
+const MSG_REQ = 'Field Cannot be empty';
+const EMAIL_REQ = 'Please Enter Your email';
+const EMAIL_INVALID = 'Please Enter a correct email address in Lowercase';
+const btn = document.getElementById('submit-btn');
 
 // signal rejection if the input is wrong
-btn.addEventListener("click", (event) => {
+btn.addEventListener('click', (event) => {
   event.preventDefault();
 
   // check if the form is validated
@@ -236,7 +236,7 @@ btn.addEventListener("click", (event) => {
   const emailValid = validateEmail(
     form.elements.email,
     EMAIL_REQ,
-    EMAIL_INVALID
+    EMAIL_INVALID,
   );
   const msgValid = hasValue(form.elements.message, MSG_REQ);
 

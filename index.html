@@ -1,408 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Liberia-Full-Stack Web-Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="windowPop.css">
+    <title>Liberia-Full-Stack Web-Developer Portfolio</title>
   </head>
-  <!-- HTML BODY -->
+
   <body>
-    <!-- NAVIGATION-HEADER  -->
-    <header class="header">
-      <nav class="navbar">
-        <a class="efm" id="efm-2" href="#">EFM</a>
-        <ul class="menu-list">
-          <li><a class="menu" href="#">Portfolio</a></li>
-          <li><a class="menu" href="#my-page">About</a> </li>
-          <li><a class="menu" href="#form-header-1">Contact</a></li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar" id="pop-color"></span>
-          <span class="bar" id="pop-color"></span>
-          <span class="bar" id="pop-color"></span>
-        </div>
+
+    <header>
+      <a class="logo" href="#">EFM</a>
+      <nav class="navbar-container">
+        <i id="open-menu" class="uil uil-bars"></i>
+        <i id="close-menu" class="uil uil-multiply"></i>        
+        <ul class="nav-item-links"> 
+          <li><a href="#portfolio">Portfolio</a></li> 
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#my-contact">Contact</a></li>
+        </ul>        
       </nav>
     </header>
-    <!-- background-image & introduction & contacts -->
-    <section class="main">
-    <div class="background-image" id="background-image-2">
-      <div class="container">
-          <h1 class="greetings">I'm Enssah. <br> Glad to see you!</h1>
-        <!-- <div class="intro"> -->
-          <p class="intro">
-            I'm a software developer! I can help you build a product, feature or
-            website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don't hesitate to
-            contact me.
-          </p>
-          <h2>LET'S CONNECT!</h2>
-        <!-- </div> -->
-      <!-- media-links -->
-      <ul class="media-links">
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-medium"></i></a></li>
-        <li><a href="#"><i class="fa fa-angellist"></i></a></li>
-      </ul>
-    </div>
-    </div>
-  </section>
-    <!-- work-sections container or snapshoot card -->
-    <section class="work-sections">
-      <div class="snapshoot-container" id="background">
-        <div class="flex" id="flex-1">
-          <div class="snap">
-            <div class="snapshoot" id="snapshoot-1"></div>
-          </div>
-          <div class="enssah">
-            <h3>Enssah</h3>
-            <div class="canopy-section">
-            <ul>
-              <li class="canopy">CANOPY</li>
-              <li>
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#C1C7D0" />
-                </svg>
-                Back End Dev
-              </li>
-              <li>
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#C1C7D0" /></svg
-                >2023
-              </li>
-            </ul>
-          </div>
-          <p class="my-p">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <div class="btn-lang">
-            <ul>
-              <li><button class="lang-btn" type="button">HTML</button></li>
-              <li><button class="lang-btn" type="button">CSS</button></li>
-              <li>
-                <button class="lang-btn" type="button">JavaScript</button>
-              </li>
-            </ul>
-          </div>
-          <button class="button" type="button" id="desktop-btn">See Project</button>
-        </div>
-        </div>
-      </div>
-    </div>
-      <!-- snapshoot-container-2 container  -->
-    <div class="snapshoot-container-2" id="background-2">
-      <div class="flex" id="flex-2">
-          <div class="page-2-image">
-            <img class="snapshoot" id="snapshoot-2" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="portfolio-art-printing-image">
-          </div>
 
-        <div class="enssah-2">
-          <div class="bld" id="bld-2">Multi-Post &nbsp; Stories</div>
-            <div class="canopy-section">
-              <ul>
-                <li class="canopy">CANOPY</li>
-                <li>
-                  <svg
-                    width="8"
-                    height="8"
-                    viewBox="0 0 8 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="4" cy="4" r="4" fill="#C1C7D0" />
-                  </svg>
-                  Back End Dev
-                </li>
-                <li>
-                  <svg
-                    width="8"
-                    height="8"
-                    viewBox="0 0 8 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="4" cy="4" r="4" fill="#C1C7D0" /></svg
-                  >2023
-                </li>
-              </ul>
-           </div>
-            <p class="my-p" id="media-p">
-              Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
-            </p>
-            <p class="my-p" class="card-2-p">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-              <div class="btn-lang" id="btn-lang-2">
-                <ul>
-                  <li><button class="lang-btn" type="button">HTML</button></li>
-                  <li><button class="lang-btn" type="button">CSS</button></li>
-                  <li>
-                    <button class="lang-btn" type="button">JavaScript</button>
-                  </li>
-                </ul>
-              </div>
-              <button class="button" type="button" id="desktop-btn">See Project</button>
-            </div>
-          </div>   
-        </div>
-      </div>
+    <div class="overlay hidden">
     </div>
-      <!-- snapshoot-container-3 for card 1 and 3 -->
-      <div class="snapshoot-container-2" id="background-3">
-        <div class="flex" id="flex-1">
-          <div class="snap">
-            <div class="snapshoot" id="snapshoot-3"></div>
-          </div>
-          <div class="enssah">
-            <div class="flex">
-              <strong class="bld">Momoh</strong>
-              <div class="canopy-section">
-              <ul>
-                <li class="canopy">CANOPY</li>
-                <li>
-                  <svg
-                    width="8"
-                    height="8"
-                    viewBox="0 0 8 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="4" cy="4" r="4" fill="#C1C7D0" />
-                  </svg>
-                  Back End Dev
-                </li>
-                <li>
-                  <svg
-                    width="8"
-                    height="8"
-                    viewBox="0 0 8 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="4" cy="4" r="4" fill="#C1C7D0" /></svg
-                  >2023
-                </li>
-              </ul>
-            </div>
-            <p class="my-p">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="btn-lang">
-              <ul>
-                <li><button class="lang-btn" type="button">HTML</button></li>
-                <li><button class="lang-btn" type="button">CSS</button></li>
-                <li>
-                  <button class="lang-btn" type="button">JavaScript</button>
-                </li>
-              </ul>
-              </div>
-              <button class="button" type="button" id="desktop-btn">See Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- snapshoot-container-2-->
-      <div class="snapshoot-container-2" id="background-4">
-        <div class="flex" id="flex-3">
-          <div class="page-2-image">
-            <img class="snapshoot" id="snapshoot-4" src="./portfolio-icons/Snapshoot Portfolio-art-printing.jpg" alt="snapshoot-portfolio-art-image">
-          </div>
-        <div class="enssah-2">
-          <div class="bld">Multi-Post <br />Stories</div>
-          <div class="canopy-section">
-            <ul>
-              <li class="canopy">CANOPY</li>
-              <li>
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#C1C7D0" />
-                </svg>
-                Back End Dev
-              </li>
-              <li>
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#C1C7D0" /></svg
-                >2023
-              </li>
-            </ul>
-          </div>
-          <p class="my-p" id="media-p-2">
-            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
-          </p>
-          <div class="btn-lang">
-            <ul>
-              <li><button class="lang-btn" type="button">HTML</button></li>
-              <!-- <li><button class="lang-btn-ruby" id="ruby-btn-2" type="submit">Ruby on Rails</button></li> -->
-              <li><button class="lang-btn" type="button">CSS</button></li>
-              <li>
-                <button class="lang-btn" type="button">JavaScript</button>
-              </li>
-            </ul>
-          </div>
-          <button class="button" type="button" id="desktop-btn">See Project</button>
-        </div>
-      </div>
-    </section>
-    <!--END OF WORK SECTIONS-->
-    <!-- START OF ABOUT MYSELF PAGE -->
-    <section class="about-section" id="my-page">
-        <div class="me">
-        <div class="about">
-          <h4 class="myself">About Myself</h4>
-          <p class="my-p">
-            Hello I'm a software developer! I can help you build a product, feature
-            or website. Look through some of my work and experience! If you like
+
+    <main>
+      <section class="header-background">
+        <div class="about container">
+          <h1>
+           I'm Enssah <br/>
+            Glad to see you!
+          </h1>
+          <p>
+            I'm a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
-          <h3>LET'S CONNECT!</h3>
-          <div class="about-myself">
-            <ul>
-              <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-medium"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-github"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-angellist"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="resume">
-            <button class="button" type="button" id="about-desktop-btn">Get my resume</button>
-          </div>
-        </div>
-        <div class="about-stacks">
-        <div class="lang-stacks-section">
-          <ul class="lang">
-            <div class="all-lang">Languages</div>
+          <h2 class="h-class">LET'S CONNECT</h2>
+          <ul>
             <li>
-              <a href="#"><i class="fa fa-angle-down"></i></a>
+              <a title="linked in profile" href="https://www.linkedin.com/in/efmomoh/"><i class="uil uil-linkedin"></i></a>
+            </li>
+            <li>
+              <a title="twitter profile" href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-angellist"></i></a>
+            </li>
+            <li>
+              <a title="Medium profile" href="#"><i class="uil uil-medium-m"></i></a>
+            </li>
+            <li>
+              <a title="Github profile" href="https://github.com/efmomoh"><i class="uil uil-github"></i></a>
             </li>
           </ul>
-          &nbsp;
-          <div class="my-stacks">
-            <ul>
-              <li>
-                <img src="./portfolio-icons/Ellipse 1-JS.png" alt="Javascript-icon" />
-                <a href="#">JavaScript</a>
-              </li>
-              &nbsp;
-              <li>
-                <img src="./portfolio-icons/Ellipse 1-html.png" alt="HTML-icon" />
-                <a href="#">HTML</a>
-              </li>
-              &nbsp;
-              <li>
-                <img src="./portfolio-icons/Ellipse 1-CSS.png" alt="CSS-icon" />
-                <a href="#">CSS</a>
-              </li>
-            </ul>
-          </div>
         </div>
-        <ul class="framework-1">
-          <div class="frame-header-1">Frameworks</div>
-          <li>
-            <a href="#"><i class="fa fa-angle-right"></i></a>
-          </li>
-        </ul>
-        <ul class="framework-2">
-          <div class="frame-header-2">Skills</div>
-          <li>
-            <a href="#"><i class="fa fa-angle-right"></i></a>
-          </li>
-        </ul>
-      </div>
+      </section>
+    </main>
+
+    <section class="works">
+      <div class="contents container">
+        <div class="cards" id="sections">      
+        </div>
       </div>
     </section>
-    <section class="form-container" id="form-bg">
-      <div class="form-box">
-      <h5 class="form-header" id="form-header-1">Contact me</h5>
-      <p class="form-p">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I'd love to help
-        with it!
-      </p>
-      <div class="contact-form">
-       
-        <form class="contact-me" action="https://formspree.io/f/xjvdador" method="post">
-          <div>
-            <label class="inactive" for="userName">userName</label>
-          <input
-            class="input-name"
-            type="text"
-            maxlength="30" id="userName"
-            placeholder="Write your name"
-            required
-          />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input
-            class="input-email"
-            type="email" id="email"
-            placeholder="Write your email"
-            required
-          />
-        </div>
-        <div>
-          <label for="message"></label>
-          <textarea
-            name="textarea"
-            class="text-area"
-            id="message"
-            placeholder="Write your message here..."
-            cols="30"
+   
+    <section id="window" class="hide">
+    </section>
 
-            rows="5" maxlength="500px" required
-
-            rows="10" maxlength="500" required
-
-          ></textarea>
-        </div>
-          <button class="form-btn" id="screen-btn" type="submit">Get in touch</button>
-          <div class="home-shape"><img src="./portfolio-icons/home-indicator.jpg" alt="home-indicator-shape"></div>
-        </form>
+    <!-- about area -->
+    <section class="about-bg" id="about-me">
+      <div class="myself about container">
+        <div class="myself-wrapper">
+        <h2>About Myself</h2>
+        <p>
+          I'm a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don't hesitate to contact
+          me.
+        </p>
+        <h3 class="h-class">LET'S CONNECT</h3>
+        <ul class="handles">
+          <li>
+            <a title="twitter profile" href="https://www.linkedin.com/in/efmomoh"><i class="uil uil-twitter"></i></a>
+          </li> 
+          <li>
+            <a title="linked in profile" href="https://www.linkedin.com/in/efmomoh/"><i class="uil uil-linkedin"></i></a>
+          </li>
+          <li>
+            <a title="Medium profile" href="#"><i class="uil uil-medium-m"></i></a>
+          </li>
+          <li>
+            <a title="Github profile" href="https://github.com/efmomoh"><i class="uil uil-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-angellist"></i></a>
+        
+          </li>
+        </ul>
+        <a class="btn btn-self" href="#">Get my resume</a>
+      </div>
+        
+     <!-- skills -->
+         <ul class="list"> 
+            <li>
+              <div class="categories">
+                <div class="dropdown">
+                  <h3>Languages</h3>
+                  <i class="uil uil-angle-down"></i>
+                </div>
+                <div class="dropdown-container">
+                <div class="dropdown-items">
+                  <ul>
+                    <img src="./portfolio-icons/Ellipse 1-JS.png" alt="Javascript logo icon"/>
+                    <li>Javascript</li>
+                  </ul>
+                </div>
+                <div class="dropdown-items">
+                  <ul>
+                    <img src="./portfolio-icons/Ellipse 1-html.png" alt="HTML logo icon"/>
+                    <li>HTML</li>
+                  </ul>
+                </div>
+                <div class="dropdown-items last">
+                  <ul>
+                    <img src="./portfolio-icons/Ellipse 1-CSS.png" alt="CSS logo icon"/>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </li>
+            <li>
+              <div class="categories">
+                <div class="dropdown">
+                  <h3>Frameworks</h3>
+                  <i class="uil uil-angle-right"></i>
+                </div>
+                <hr/>
+              </div>
+            </li>
+            <li>
+              <div class="categories">
+                <div class="dropdown">
+                  <h3>Skills<span></span></h3>
+                  <i class="uil uil-angle-right"></i>
+                </div>
+                <hr/>
+              </div>
+            </li>         
+        </ul>
+      </div>
+    </section>
+ <!-- form area  -->
+    <section class="contact-bg" id="my-contact">
+      <div class="contact-me">
+        <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+        
+        <div class="contact-form">
+        <form action="https://formspree.io/f/xjvdador" method="post" id="register">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name" placeholder="Write Your Name" required maxlength="30"/>
+            <small></small>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" placeholder="Write Your Email" required/>
+            <small></small>
+          </div>
+          <div class="field">
+            <label for="message">Write your message:</label>
+            <textarea name="message" id="message" placeholder="Write Your Message..." required maxlength="500"></textarea>
+            <small></small>
+          </div>
+          <div class="field">
+            <button type="submit" id="submit-btn">Get in touch</button>
+            <div class="home-shape"><img src="./portfolio-icons/home-indicator.jpg" alt="home-indicator-shape"></div>
+          </div>
+         </form>
+      </div>
+      </div>
       </div>
     </section>
     <script src="./javaScripts/script.js"></script>

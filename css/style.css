@@ -97,7 +97,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 6rem;
 }
 
 header a {
@@ -561,14 +561,16 @@ textarea.success:focus {
   header ul li a {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    color: #344563;
+    color: #1c33ff;
     font-weight: 500;
     opacity: 0.6;
     transition: all 400ms ease-in-out;
   }
 
   header ul li a:hover {
-    color: #2230d2;
+    color: #fff;
+    background-color: #0e25f1;
+    padding: 5px;
     opacity: 1;
     margin-right: 0.1rem;
   }

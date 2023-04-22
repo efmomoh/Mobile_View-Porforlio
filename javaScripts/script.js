@@ -1,20 +1,20 @@
-//hamburger menu and menu
+// hamburger menu and menu
 
 const openBtn = document.querySelector('#open-menu');
 const closeBtn = document.querySelector('#close-menu');
 const menu = document.querySelector('.nav-item-links');
 const overlay = document.querySelector('.overlay');
 
-  openBtn.addEventListener('click', () => {  //open menu or nav bar
+openBtn.addEventListener('click', () => {
   menu.style.display = 'block';
   openBtn.style.display = 'none';
   closeBtn.style.display = 'inline-block';
 
   overlay.classList.remove('hidden');
-  document.body.style.overflow = 'hidden'; //prevent scrolling if over lay is not hidden
+  document.body.style.overflow = 'hidden';
 });
 
-const closeNavbar = () => { //clont btn
+const closeNavbar = () => {
   menu.style.display = 'none';
   openBtn.style.display = 'inline-block';
   closeBtn.style.display = 'none';
@@ -24,18 +24,16 @@ const closeNavbar = () => { //clont btn
 closeBtn.addEventListener('click', () => {
   closeNavbar();
 });
-
- //end of menu and hamburger
-
+// ham end
 const projectsArea = document.querySelector('.cards');
 const modalPopUp = document.querySelector('#window');
 
 const cards = [
   {
     id: 1,
-    name: 'Tonic',
+    title: 'Tonic',
     description: 'A daily selection of privately personalized reads no accounts or sign-ups required',
-    featureImg: './portfolio-icons/mobile1.png',
+    img1: './portfolio-icons/mobile1.png',
     technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
     platform: 'CANOPY',
     stack: 'Back End Dev',
@@ -45,9 +43,9 @@ const cards = [
   },
   {
     id: 2,
-    name: 'Multi-Post Stories',
+    title: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    featureImg: './portfolio-icons/mobile2.jpg',
+    img1: './portfolio-icons/mobile2.jpg',
     technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
     platform: 'FACEBOOK',
     stack: 'Full Stack Dev',
@@ -57,9 +55,9 @@ const cards = [
   },
   {
     id: 3,
-    name: 'Facebook 360',
+    title: 'Facebook 360',
     description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    featureImg: './portfolio-icons/mobile3.jpg',
+    img1: './portfolio-icons/mobile3.jpg',
     technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
     platform: 'FACEBOOK',
     stack: 'Full Stack Dev',
@@ -69,9 +67,9 @@ const cards = [
   },
   {
     id: 4,
-    name: 'Uber Navigation',
+    title: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    featureImg: './portfolio-icons/mobile4.jpg',
+    img1: './portfolio-icons/mobile4.jpg',
     technology: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
     platform: 'Uber',
     stack: 'Lead Developer',
@@ -86,10 +84,10 @@ function generateContent() {
     .map(
       (content) => `          
          <div class="details">
-        <img src=${content.featureImg}  alt="image" />
+        <img src=${content.img1}  alt="img1" />
 
         <div class="card-info">
-          <h2>${content.name}</h2>
+          <h2>${content.title}</h2>
 
           <div class="title-and-date">
             <p class="title">CANOPY</p>
@@ -103,7 +101,7 @@ function generateContent() {
           <ul class="stack">
           ${content.technology.map((x) => `<li>${x}</li>`).join('')}
           </ul>
-          <a class="detail-btn btn" id=${content.id}href="#">See cards</a>
+          <a class="detail-btn btn" id=${content.id}href="#">See Projects</a>
         </div>
       </div> `,
     )
@@ -119,7 +117,7 @@ projectsArea.addEventListener('click', (e) => {
       modalPopUp.innerHTML = `
              <div class="popup">
             <div class="header-close window-container">
-              <h3 class="popup-title">${search.name}</h3>
+              <h3 class="popup-title">${search.title}</h3>
               <i id="close-btn" class="uil uil-multiply"></i>
             </div>
             <div class="title-and-date window-container">
@@ -130,7 +128,7 @@ projectsArea.addEventListener('click', (e) => {
               <p class="muted">${search.year}</p>
             </div>
             <div class="card-info window-container">
-          <img class="main-img" src=${search.featureImg} alt="" />
+          <img class="main-img" src=${search.img1} alt="" />
           <div class="switch">
             <div class="description">
               <p>

@@ -14,6 +14,8 @@ openBtn.addEventListener('click', () => {
   document.body.style.overflow = 'hidden';
 });
 
+// close & open the menu bar
+
 const closeNavbar = () => {
   menu.style.display = 'none';
   openBtn.style.display = 'inline-block';
@@ -25,8 +27,12 @@ closeBtn.addEventListener('click', () => {
   closeNavbar();
 });
 // ham end
-const projectsArea = document.querySelector('.cards');
+// begin card section
+
+const projectsCards = document.querySelector('.cards');
 const modalPopUp = document.querySelector('#window');
+
+// arr of objects
 
 const cards = [
   {
@@ -80,7 +86,7 @@ const cards = [
 ];
 
 function generateContent() {
-  projectsArea.innerHTML = cards
+  projectsCards.innerHTML = cards
     .map(
       (content) => `          
          <div class="details">
@@ -108,7 +114,7 @@ function generateContent() {
     .join('');
 }
 
-projectsArea.addEventListener('click', (e) => {
+projectsCards.addEventListener('click', (e) => {
   if (e.target.classList.contains('detail-btn')) {
     modalPopUp.style.display = 'block';
     const id = parseFloat(e.target.id);
@@ -166,3 +172,56 @@ modalPopUp.addEventListener('click', (e) => {
   generateContent();
 });
 generateContent();
+
+// function for cards ends here
+
+// form validation goes here
+
+function showMessage(input, message, type) {
+  const msg = input.parentNode.querySelector('small');
+  msg.innerHTML = message;
+
+  // updating the input clases
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
+function hasValue(input, message) {
+  if (input.value.trim() === '') {
+    return showError(input, message);
+  }
+  return showSuccess(input);
+}
+
+function validateEmail(input, requiredMsg, invalidMsg) {
+  // check if value is not empty then accept if it's not
+
+  if (!hasValue(input, requiredMsg)) {
+    return false;
+  }
+  // check global values and chrs to validate email RegEx
+  const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$/;
+
+  const email = input.value.trim();
+  const email2 = input.value.trim().toLowerCase();
+
+  if (!emailRegex.test(email) && (email !== email2)) {
+    return showError(input, invalidMsg);
+  }
+  return true;
+}
+
+const form = document.getElementById('register');
+const NAME_REQ = 'Please Enter your name';
+const MSG_REQ = 'Field Cannot be empty';
+const EMAIL_REQ = 'Please Enter Your email';
+const EMAIL_INVALID = 'Please Enter a correct email address in Lowercase';
+const btn = document.getElementById('submit-btn');
+
+// signal rejection if the input is wrong
+});
